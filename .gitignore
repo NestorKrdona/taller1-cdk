@@ -1,0 +1,19 @@
+# Credenciales
+.env
+.env.*
+!.env.dist
+*.pem
+
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Archivos generados por CDK (contienen ID de cuenta, region, IDs de recursos, DNS)
+cdk.out/
+cdk-outputs.json
+cdk.context.json
+outputs*.json
+
+# Sistema
+.DS_Store

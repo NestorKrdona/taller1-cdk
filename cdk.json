@@ -1,0 +1,11 @@
+{
+  "app": ".venv/bin/python cdk_app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["README.md", "cdk*.json", "**/__pycache__", ".venv", "cdk.out"]
+  },
+  "context": {
+    "instanceType": "t3.micro",
+    "stock": "GOOGL"
+  }
+}
